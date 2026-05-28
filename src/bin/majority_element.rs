@@ -59,7 +59,10 @@ impl Solution {
 fn main() {
     let nums = vec![2, 2, 1, 1, 1, 2, 2];
 
-    println!("Boyer-Moore Solution: {}", Solution::majority_element(nums.clone()));
+    println!(
+        "Boyer-Moore Solution: {}",
+        Solution::majority_element(nums.clone())
+    );
     println!(
         "HashMap Solution: {}",
         Solution::majority_element_hash_map(nums)
